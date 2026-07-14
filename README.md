@@ -189,13 +189,19 @@ dependency-free by design; please keep it that way. Run the tests with:
 python -m unittest discover -s tests
 ```
 
-## 🙌 Credits
+## 🧭 Prior art & credits
 
-Check design informed by the open-source auditors
+`website-seo-audit` is written from scratch, with no third-party code — that's
+the whole point of "zero dependencies." Its checks follow widely-published SEO
+guidance (Google Search documentation and the best practices you'll find echoed
+across the industry). If you're weighing options, two well-known open-source
+tools cover nearby ground and are worth a look:
 [python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer) and
-[seonaut](https://github.com/StJudeWasHere/seonaut), plus Google's rich-results
-documentation. This project adds first-class structured-data validation and
-zero-dependency, agent-installable packaging.
+[seonaut](https://github.com/StJudeWasHere/seonaut).
+
+Where this project puts its emphasis: **zero dependencies**, **install-as-an-
+agent-skill** packaging, and **structured-data (JSON-LD / Schema.org)
+validation**.
 
 ## 📄 License
 

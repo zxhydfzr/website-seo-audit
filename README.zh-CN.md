@@ -183,12 +183,16 @@ seo-audit https://yoursite.com --json -o seo.json || echo "SEO 出问题了！"
 python -m unittest discover -s tests
 ```
 
-## 🙌 致谢
+## 🧭 同类项目与致谢
 
-检查项设计参考了开源审计工具
+`website-seo-audit` 完全从零手写，不含任何第三方代码 —— 这正是「零依赖」的意义。它的
+检查项遵循广泛公开的 SEO 通用规范（Google 搜索官方文档，以及全行业都在讲的最佳实践）。
+如果你在做选型，这个赛道还有两个知名开源工具值得一看：
 [python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer) 和
-[seonaut](https://github.com/StJudeWasHere/seonaut)，以及 Google 富结果文档。
-本项目在此之上补齐了一流的结构化数据校验，以及零依赖、可被 agent 安装的打包方式。
+[seonaut](https://github.com/StJudeWasHere/seonaut)。
+
+本项目的侧重点不同：**零依赖**、**可作为 agent 技能安装**、以及**结构化数据
+（JSON-LD / Schema.org）校验**。
 
 ## 📄 许可协议
 
