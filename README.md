@@ -6,6 +6,7 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
+[![PyPI](https://img.shields.io/pypi/v/website-seo-audit.svg)](https://pypi.org/project/website-seo-audit/)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#-why-its-different)
@@ -64,12 +65,14 @@ python3 -m seo_audit https://yoursite.com
 
 That's it. No virtualenv, no packages to install.
 
-Prefer a global command? Install with [pipx](https://pipx.pypa.io/):
+Prefer a global command? It's on [PyPI](https://pypi.org/project/website-seo-audit/):
 
 ```bash
-pipx install git+https://github.com/zxhydfzr/website-seo-audit.git
+pip install website-seo-audit
 seo-audit https://yoursite.com
 ```
+
+(Or with [pipx](https://pipx.pypa.io/): `pipx install website-seo-audit`.)
 
 ---
 

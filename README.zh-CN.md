@@ -6,6 +6,7 @@
 
 [English](README.md) · **简体中文**
 
+[![PyPI](https://img.shields.io/pypi/v/website-seo-audit.svg)](https://pypi.org/project/website-seo-audit/)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![零依赖](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#-凭什么不一样)
@@ -59,12 +60,14 @@ python3 -m seo_audit https://yoursite.com
 
 就这样。不用建虚拟环境、不用装任何包。
 
-想要一个全局命令？用 [pipx](https://pipx.pypa.io/) 安装：
+想要一个全局命令？它已经发布在 [PyPI](https://pypi.org/project/website-seo-audit/) 上：
 
 ```bash
-pipx install git+https://github.com/zxhydfzr/website-seo-audit.git
+pip install website-seo-audit
 seo-audit https://yoursite.com
 ```
+
+（或者用 [pipx](https://pipx.pypa.io/)：`pipx install website-seo-audit`。）
 
 ---
 
