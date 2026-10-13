@@ -209,4 +209,6 @@ python -m unittest discover -s tests
 
 献给所有不想登录一堆后台、只想要干净 SEO 的人。
 
+作者 [柏均](https://github.com/zxhydfzr) · 完整使用教程和更多独立站 SEO 工作流见 **[Chill AI Automate](https://www.liubojun.com/skill-detail-seo-audit/)**
+
 </div>
