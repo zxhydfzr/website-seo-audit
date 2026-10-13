@@ -218,4 +218,6 @@ validation**.
 
 Made for everyone who wants clean SEO without a dashboard login.
 
+Built by [Bojun](https://github.com/zxhydfzr) · Step-by-step guide and more e-commerce SEO workflows at **[Chill AI Automate](https://www.liubojun.com/skill-detail-seo-audit/)**
+
 </div>
